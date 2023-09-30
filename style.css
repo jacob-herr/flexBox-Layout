@@ -1,0 +1,212 @@
+*{
+  border: 1px solid red;
+}
+
+body{
+  display:flex;
+  justify-content: start;
+  height: 1500px;
+  margin:0;
+  flex-direction: row;
+  background-color: rgba(227, 223, 223, 0.888);
+  background-image: url('images/background.jpeg');
+  background-blend-mode: color-burn;
+}
+
+p{
+  color: inherit;
+  margin-right:5px;
+}
+
+a{
+  text-decoration: none;
+  color:inherit;
+}
+
+h3{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: underline;
+}
+
+.container{
+  background-color: black;
+  width:100px;
+  padding-left: 10px;
+  margin-top:0;
+  height:inherit;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  display:flex;
+  justify-content: start;
+  flex-direction: column;
+  color: white;
+} 
+
+.content{
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  justify-content: center;
+  column-gap: 100px;
+  margin-left: 20px;
+}
+
+.lines{
+  color: aliceblue;
+  font-size: 2rem;
+}
+
+
+.midsection{
+  display: flex;
+  flex-direction: column;
+  height:100%;
+  width:100%;
+  column-gap: 0px;
+  justify-content: start;
+}
+
+.topBar{
+  background-color:rgb(33, 33, 33) ;
+  display: flex;
+  justify-content: space-evenly;
+  color:white;
+  font-size: 1rem;
+  border-radius: 3px;
+  z-index: -999;
+  margin-left:-100px;
+}
+
+.news{
+  display:flex;
+  height:300px;
+  width:100%;
+  border-radius: 10px;
+}
+
+.breaking{
+  width:60%;
+  margin-left: 5px;
+  margin-top:5px;
+  border-radius: 15px;
+  background-color: grey;
+  justify-content: stretch;
+  font-family: 'Courier New', Courier, monospace;
+  height:auto;
+  
+}
+
+.logo{
+  height: 75px;
+  width: 75px;
+  margin: 10px;
+  margin-bottom: 2px;
+  border-radius: 5px;
+  background-color: rgb(41, 40, 40);
+  border: 1px solid black;
+  float: left;
+}
+
+.bMess{
+  font-size: 1rem;
+  box-sizing: content-box;
+  width:100%;
+  height: 100%;
+}
+
+.extras{
+  border-radius: 15px;
+  width: 33%;
+  margin-left: 3%;
+  margin-right:3%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+#extra2{
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.extra{
+  height:45%;
+  width:100%;
+  background-color:inherit;
+  border-radius: 15px;
+  background-color: grey;
+  color:white;
+}
+
+#extra1{
+  display: flex;
+  flex-direction: row;
+}
+
+.extra1-container{
+  width:70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding-right:10px;
+}
+
+#logoe1{
+  width:20%;
+  height: 80%;
+}
+
+#logoe2{
+  width:90%;
+  height:80%;
+  margin:auto
+}
+
+#e1e1,#e1e2{
+  background-color:rgb(85, 84, 84);
+  color:rgb(41, 40, 40)
+}
+.e1msg{
+  margin-right:auto;
+  margin-left:auto;
+  margin-top:5px;
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(9, 8, 8);
+  padding-left: 4%;
+  text-indent: 25px;
+  font-size: 0.9rem;
+}
+
+.large{
+  text-indent: 4rem;
+  padding-left: 25px;
+  padding-right: 25px;
+  font-family: 'Courier New', Courier, monospace;
+  letter-spacing:-0.5px;
+  word-spacing: -1px;
+  font-size: 1.2rem;
+  border-bottom: 1px solid black;
+}
+
+.imageContainer{
+  height: 200px;
+  width:100%;
+  background-image: url('images/newspaper.jpg');
+  background-size: cover;
+  background-color: rgb(103, 97, 97);
+  background-blend-mode: multiply;
+  font-family: 'Courier New', Courier, monospace;
+  color: aliceblue;
+  margin-top:50px;
+}
+
+h4{
+  text-align: center;
+
+  font-size: 50px;
+}
